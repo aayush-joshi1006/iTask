@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn {
+    @apply px-4 py-2 border bg-blue-500 text-white rounded-lg hover:bg-blue-700;
+}
+
+.todosStyle {
+    @apply flex flex-row w-3/4 break-words whitespace-normal bg-gray-200 rounded-lg p-3 items-center dark:bg-gray-700;
+}
